@@ -1,10 +1,8 @@
 module Main where
 
 import Prelude
-
 import Effect (Effect)
-import Effect.Console (log)
+import AllFunctions (allFunctions)
 
 main :: Effect Unit
-main = do
-  log "🍝 hello iam charan kosari"
+main = allFunctions
